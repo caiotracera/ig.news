@@ -1,10 +1,17 @@
 import type { NextPage } from 'next';
+import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1>hello world</h1>
-    </div>
+    <>
+      <Head>
+        <title>Home | ig.news</title>
+      </Head>
+
+      <div>
+        <h1>hello world</h1>
+      </div>
+    </>
   );
 };
 
