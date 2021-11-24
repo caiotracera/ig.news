@@ -2,7 +2,7 @@
   <img src="./.github/logo.svg" height="120" />
 </h1>
 
-<h4 align="center">A ReactJS application to premium blog.</h4>
+<h4 align="center">A ReactJS application for a premium blog.</h4>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/caiotracera/ig.news?color=EBA417">
