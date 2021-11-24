@@ -3,6 +3,7 @@ module.exports = {
   setupFilesAfterEnv: ["<rootDir>/src/tests/setupTests.ts"],
   transform: {
     "^.+\\.(js|jsx|ts|tsx)$": "<rootDir>/node_modules/babel-jest",
+    '^.+\\.svg$': 'jest-transform-stub',
   },
   moduleNameMapper: {
     "\\.(scss|css|sass)$": "identity-obj-proxy",
