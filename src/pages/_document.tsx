@@ -18,6 +18,8 @@ export default class MyDocument extends Document {
           />
 
           <meta charSet="utf-8" />
+
+          <link rel="shortcut icon" href="/favicon.png" type="image/png" />
         </Head>
         <body>
           <Main />
