@@ -15,6 +15,7 @@ module.exports = {
     "!src/**/*.spec.tsx",
     "!src/**/_app.tsx",
     "!src/**/_document.tsx",
+    "!src/utils/**"
   ],
   coverageReporters: ["lcov", "json"],
 };
