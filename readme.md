@@ -58,8 +58,11 @@
 
 # :wrench: Getting started
 
-In order to run this project, you must have installed <a href="https://nodejs.org/en/">Node.js</a>
-and <a href="https://git-scm.com/">Git SCM</a>. If you met all the requirements, follow the instructions:
+To run this project locally, you must have installed <a href="https://nodejs.org/en/" target="_blank">Node.js</a>
+and <a href="https://git-scm.com/" target="_blank">Git SCM</a>. In addition, you'll need to have a developer account <a href="https://stripe.com/en-br" target="_blank">Stripe</a> for the payment to be fully functional.
+
+<!-- In order to run this project, you must have installed <a href="https://nodejs.org/en/">Node.js</a>
+and <a href="https://git-scm.com/">Git SCM</a>. If you met all the requirements, follow the instructions: -->
 
 <b>Clone the project</b>
 
@@ -67,6 +70,16 @@ and <a href="https://git-scm.com/">Git SCM</a>. If you met all the requirements,
 $ git clone https://github.com/caiotracera/ig.news
 $ cd ig.news
 ```
+
+<b>Copy the environment variables</b>
+
+```shell
+$ cp .env.example .env.local
+```
+
+<b>Replace the private variables</b>
+
+* `STRIPE_API_KEY` should be your Stripe's secret key.
 
 <b>Start the project</b>
 
@@ -77,7 +90,7 @@ $ npm run start # Initiate the project at http://localhost:3000/
 ```
 
 # :pencil2: Todo
-
+- [ ] Make responsive.
 
 # :memo: License
 
