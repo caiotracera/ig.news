@@ -4,6 +4,7 @@ import Head from 'next/head';
 import avatarImg from '../assets/images/avatar.svg';
 
 import { Header } from '../components/Header';
+import { SubscribeButton } from '../components/SubscribeButton';
 
 import { Container, Hero } from '../styles/pages/home';
 
@@ -27,6 +28,8 @@ const Home: NextPage = () => {
             Get access to all the publications <br />
             <span>for $9.90 month</span>
           </p>
+
+          <SubscribeButton />
         </Hero>
 
         <img src={avatarImg} alt="Girl coding" />
